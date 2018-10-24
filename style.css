@@ -49,12 +49,16 @@ body {
     border-radius: 50%;
     transition: 0.3s;
 }
+.colorbox> li.black{
+    background:black;
+}
 .colorbox> li.red{
     background: red;
 }
 .colorbox> li.yellow{
     background: yellow;
-}.colorbox> li.blue{
+}
+.colorbox> li.blue{
     background: blue;
 }
 .colorbox> li.active{
