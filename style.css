@@ -2,7 +2,6 @@
     width: 1em; height: 1em;
     vertical-align: -0.15em;
     fill: currentColor;
-    overflow: hidden;
  }
  ol,li{
      list-style: none;
@@ -11,6 +10,9 @@
 #xxx {
     
     display: block;
+    position: fixed;/*给canvas一个绝对定位，不让界面在移动端浮动*/
+    left: 0;
+    top: 0;
 }
 
 body {
